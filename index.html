@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade avaliativa</title>
+</head>
+<body>
+    <form>
+        <h1>Cadastro de clientes</h1>
+
+        <p>
+            <label for="nome-completo">Nome Completo</label>
+            <br />
+            <input id="nome-completo" type="text" />
+        </p>
+        <p>
+            <label for="e-mail">E-mail</label>
+            <br />
+            <input id="e-mail" type="email" />
+        </p>
+        <p>
+            <label for="Telefone">Telefone</label>
+            <br />
+            <input id="Telefone" type="tel" />
+        </p>
+        <p>
+            <label for="Senha">Senha</label>
+            <br />
+            <input id="Senha" type="password" />
+        </p>
+    
+        <button type="submit" onclick="sucesso()" >Enviar</button>
+        <script>
+            function sucesso()
+            {
+                alert('Cadastro efetuado com sucesso!')
+            }
+        </script>
+
+
+    </form>        
+</body>
+</html>
